@@ -12,3 +12,4 @@ jobs:
               with: 
                 max_post_count: "4"
                 feed_list: "https://medium.com/feed/@ubeytdemir"
+                gh_token: ${{ secrets.GH_TOKEN }}
